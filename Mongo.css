@@ -65,6 +65,7 @@ a{
 }
 
 .nav-list{
+    
     display: flex;
     align-items: center;
     gap:40px
@@ -87,6 +88,9 @@ a{
     background-color: #00ED64;
 }
 
+.right-side button:hover{
+    border-radius: 30px;
+}
 
 
 
@@ -187,7 +191,12 @@ a{
     font-weight: 500;
     font-size: 16px;
 }
-
+.bottomleftline span:hover{
+    color: #00ED64;
+}
+.bottomleftline button:hover{
+    border-radius: 30px;
+}
 .rightbox img{
     margin-left: 145px;
     margin-top: 35px;
@@ -275,7 +284,9 @@ a{
    border-radius: 5px;
    background-color: #00ED64;
 }
-
+.left-side3  button:hover{
+    border-radius: 30px;
+}
 .right-side3 img{
     width: 550px;
     height: 350px;
@@ -565,6 +576,10 @@ a{
     background-color: #00ED64;
     margin-bottom: 32px;
 }
+
+.r-side-tenth button:hover{
+    border-radius: 30px;
+}
 .first-n{
     max-width: 100%;
     padding: 32px 0;
@@ -709,6 +724,10 @@ a{
     border-radius: 3px;
 }
 
+.inside-list button:hover{
+    border-radius: 30px;
+
+}
 .tweleth img{
     padding-left: 150px;
 }
@@ -768,19 +787,32 @@ a{
     width: 100%;
     height: 850px;
     padding: 112px 48px;
+    position: relative;
 }
 
 
 .r-bar-14{
+    margin-top: 50px;
     line-height: 100px;
     margin-left: 240px;
     width:1110px ;
     height: 576px;
     border-radius: 40px;
-    box-shadow:#21313c;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 72px 80px 0px 300px;
+    z-index: -1;
 }
+
+.toyo{
+    background-color: #00684A;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
 .r-bar-14 div{
     line-height: 40px;
     font-size: 30px;
@@ -805,10 +837,110 @@ a{
     background-color: #004531;
     border-top-left-radius: 135px;
     border-top-right-radius: 135px;
+    display: flex;
+    
 }
+
+.inside-list-new
+{   
+    line-height: 110px;
+    padding: 150px;
+}
+.inside-list-new div span {
+    font-size: 19px;
+    color:  #c3c0c0;
+}
+
+.inside-list-new h2{
+    line-height: 45px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.inside-list-new button{
+    padding: 15px 30px;
+    background-color: #00ED64;
+    font-weight: 600;
+    border: 1px solid black ;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+.inside-list-new button:hover{
+    border-radius: 30px;
+}
+
+.inside-list-new span{
+    color: white;
+}
+
+.fivteen img{
+
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 434px;
+    height: 434px;
+
+}
+
 
 .footer{
     height: 568px;
     width: 100%;
     background-color:#061621;
+    
+
+}
+
+.last-footer{
+    margin-left: 140px;
+    line-height: 50px;
+    padding: 65px 14px;
+    width: 80%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 5px;
+    
+}
+.g1{
+    padding-top: 20px;
+}
+
+.g1 button{
+    background-color: transparent;
+    border: 0;
+}
+
+.g1 select{
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.g1 select option{
+    background-color: #21313C;
+    color: white;
+    width: 250px;
+    height: 500px;
+}
+
+.g2 ul{
+    list-style: none;
+    color: white;
+}
+
+.g2 h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: .9em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
 }
